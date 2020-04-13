@@ -10,6 +10,12 @@ This application allows to perform face comparison between 2 faces passing the s
 
 Configuration is located in `serverless.yaml` file. Please provide your own S3 image bucket name in the environment
 
+# Deploy
+
+- Install Serverless framework in your machine. (https://serverless.com/)
+- Configure AWS Credentials.
+- Run `sls -v deploy`
+
 # Presigned Upload URL request
 
 PATH: `BASEURL`/faces/attachment
